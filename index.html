@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <title>Twitchtv JSON API Application</title>
+    <link rel="stylesheet" type="text/css"
+          href="https://fonts.googleapis.com/css?family=Bungee">
+    <link rel="stylesheet" type="text/css"
+          href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <div class="container">
+        
+        <div class="row header text-center">
+          <h1>Twitch Streamers</h1>
+        </div> <!-- header -->
+
+        <div class="btn-group btn-group-justified" role="group">
+          <div class="btn-group" role="group">
+            <button id="all-streamers" class="btn btn-default">All</button>
+          </div>
+          <div class="btn-group" role="group">
+            <button id="online-streamers" class="btn btn-default">Online</button>
+          </div>
+          <div class="btn-group" role="group">
+            <button id="offline-streamers" class="btn btn-default">Offline</button>
+          </div>
+          <div class="btn-group" role="group">
+            <button id="refresh-streamers" class="btn btn-default">Refresh</button>
+          </div>
+        </div> <!-- btn-group-justified -->
+      
+        <div class="input-group">
+          <input type="text" id="user-box" class="form-control" placeholder="Twitch Username">
+          <div class="input-group-btn">
+            <button id="add-user" class="btn btn-default">Add User</button>
+            <button id="remove-user" class="btn btn-default">Remove User</button>
+          </div> <!-- input-group-btn -->
+        </div> <!-- input-group -->
+       
+        <div id="stream-container">      
+        </div> <!-- streamer-container -->
+    
+    </div> <!-- container -->
+    
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+  </body>
+</html>

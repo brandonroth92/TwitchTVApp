@@ -1,0 +1,101 @@
+body {
+  background-color: #919191;
+  padding-top: 13px;
+}
+
+body h1 {
+    font-family: Bungee;
+}
+
+.container {
+  max-width: 550px;
+  border: 1px solid white;
+  background-color: #404040;
+  color: white;
+}
+
+.btn{
+  border: 1px solid black;
+  font-family: Montserrat;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active {
+  border: 1px solid black;
+  outline: none;
+}
+
+.input-group {
+  margin-top: 30px;
+  font-family: montserrat;
+}
+
+#user-box {
+  width: 95%;
+}
+
+#add-user, #remove-user {
+  width: 100;
+}
+
+.streamer {
+ border-top: 1px solid white;
+ line-height: 50px;
+ padding: 10px 10px;
+}
+
+.streamer a {
+  
+}
+
+.streamerLogo {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+a .streamerLogo:hover {
+  height: 51px;
+  width: 51px;
+  border: 1px solid white;
+}
+
+#name, #streaming {
+  font-family: montserrat;
+  line-height: 25px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-align: center;
+}
+
+#name a {
+  color: white;
+}
+
+#streaming a {
+  color: white;
+}
+
+.offline {
+  background-color: #8e3823;
+}
+
+.online {
+  background-color: #557530;
+}
+
+@media (min-width: 768px) {
+ 
+  #name, #streaming {
+    line-height: 50px;
+    height: 50px;
+    display: inline;
+  }
+  
+  #add-user, #remove-user {
+  width: 115;
+  }
+
+}
